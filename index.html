@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSRvest - Home</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <!-- Main Header Section (Now inside the background image) -->
+
+    <div class="hero">
+      <header>
+        <div class="logo">
+          <a href="index.html"
+            ><img src="assets/logos.png" alt="CSRvest Logo"
+          /></a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="index.html">DETAILS</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+            <li>
+              <a href="search.html"
+                ><img src="assets/search-icon.png" class="icon" alt="Search"
+              /></a>
+            </li>
+            <li>
+              <a href="profile.html"
+                ><img src="assets/people.png" class="icon" alt="User"
+              /></a>
+            </li>
+            <li>
+              <a href="index.html"
+                ><img src="assets/shopping-cart.png" class="icon" alt="Cart"
+              /></a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <br />
+      <br /><br />
+      <!-- Banner Content (Inside Hero Section) -->
+      <section class="banner">
+        <div class="overlay">
+          <h1 class="sustainability">SUSTAINABILITY</h1>
+          <div class="team-box">
+            <h3>TEAM MARKZOK</h3>
+            <p>ANCHAL</p>
+            <p>ARYAN AGGARWAL</p>
+            <p>JAYASREE</p>
+            <p>DHEERAJ</p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div>
+          <img
+            src="/assets/p1.png"
+            alt="lop"
+            style="
+              width: 270px;
+              height: 270px;
+              object-fit: contain;
+              margin-top: 200px;
+              margin-left: 1000px;
+            "
+          />
+        </div>
+      </section>
+    </div>
+
+    <!-- Support Section -->
+    <section class="support">
+      <div class="response-container">
+        <img src="assets/support.jpg" alt="Response Image" />
+        <div class="text">RESPONSIBILITY</div>
+      </div>
+      <div class="support-container">
+        <img src="assets/cor.jpg" alt="Support Image" />
+        <div class="text" style="margin-right: 200%">
+          S<br />U<br />P<br />P<br />O<br />R<br />T
+        </div>
+      </div>
+    </section>
+    <!-- Problem Section -->
+    <div class="problem-solution-container">
+      <!-- Problem and Solution Section -->
+      <div>
+        <section class="problem">
+          <h2>Problem</h2>
+          <p>
+            Despite the mandatory CSR spending, many companies face challenges
+            in identifying credible projects that align with their corporate
+            values and compliance requirements. Simultaneously, impact startups
+            often struggle to access these funds due to a lack of visibility and
+            connections with corporates.
+          </p>
+        </section>
+        <br />
+        <section class="solution">
+          <h2>Solution</h2>
+          <ul>
+            <li>
+              <strong>For Corporations:</strong> Offers a curated list of vetted
+              impact startups, tools for tracking project progress, and metrics
+              for impact assessment.
+            </li>
+            <li>
+              <strong>For Startups:</strong> Provides access to a network of
+              potential corporate partners, resources for capacity building, and
+              guidance on compliance and reporting.
+            </li>
+          </ul>
+        </section>
+      </div>
+      <section class="market-size">
+        <div class="market-left">
+          <h1>MARKET SIZE</h1>
+          <img
+            src="/assets/kl.png"
+            alt="market Image"
+            style="width: 500px; height: 500px"
+          />
+          <div class="chart-container">
+            <canvas id="csrTopStates"></canvas>
+          </div>
+          <div class="chart-container">
+            <canvas id="csrTopCompanies"></canvas>
+          </div>
+        </div>
+
+        <div class="market-right">
+          <div class="csr-stats">
+            <div class="stat-box">
+              <h2>CSR SPENDING IN INDIA</h2>
+              <p>₹ 29,986.92 CR</p>
+            </div>
+            <div class="stat-box">
+              <h2>NO. OF COMPANIES</h2>
+              <p>24,392</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="container">
+      <h1>Primary Research</h1>
+
+      <div class="section green">
+        <h2>CSR Budget Utilization</h2>
+        <ul>
+          <li>
+            78% of companies face challenges in identifying credible impact
+            startups for CSR funding.
+          </li>
+          <li>
+            65% of corporations struggle with measuring the impact of CSR
+            investments.
+          </li>
+          <li>
+            40% of companies underutilize their CSR budget due to lack of
+            suitable projects.
+          </li>
+        </ul>
+      </div>
+
+      <div class="section green">
+        <h2>Challenges Faced by Impact Startups</h2>
+        <ul>
+          <li>
+            72% of startups find it difficult to connect with corporate CSR
+            teams.
+          </li>
+          <li>55% lack awareness about CSR funding opportunities.</li>
+          <li>48% struggle with compliance and documentation requirements.</li>
+        </ul>
+      </div>
+
+      <div class="section blue">
+        <h2>Preferred Sectors for CSR Funding</h2>
+        <ul>
+          <li>35% Education & Skill Development</li>
+          <li>30% Sustainable Livelihoods (SDG 8)</li>
+          <li>20% Healthcare & Sanitation</li>
+          <li>10% Environment & Sustainability</li>
+          <li>5% Other Social Impact Initiatives</li>
+        </ul>
+      </div>
+
+      <div class="section blue">
+        <h2>Solution Effectiveness (CSRvest Platform Concept)</h2>
+        <ul>
+          <li>
+            80% of companies expressed interest in a platform that curates
+            impact startups.
+          </li>
+          <li>
+            68% of CSR professionals preferred a data-driven impact tracking
+            solution.
+          </li>
+        </ul>
+      </div>
+      <section class="barriers-section">
+        <h2 class="title" style="color: white">BARRIERS TO ENTRY</h2>
+        <div class="content">
+          <div class="info-boxes">
+            <div class="info-box">
+              <h3><em>Regulatory Compliance:</em></h3>
+              <p>
+                Navigating complex legal frameworks governing CSR activities.
+              </p>
+            </div>
+            <div class="info-box">
+              <h3><em>Establishing Credibility:</em></h3>
+              <p>
+                Building trust with both corporations and startups through
+                demonstrated impact and reliability.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="container">
+        <!-- Comparison Table -->
+        <section class="comparison-table">
+          <h2>Company Comparison</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Company</th>
+                <th>Target Audience</th>
+                <th>Features</th>
+                <th>Region</th>
+                <th>Pricing Model</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>CSR2Life</td>
+                <td>Indian Companies & NGOs</td>
+                <td>NGO Discovery, CSR Matchmaking</td>
+                <td>India</td>
+                <td>Commission-based</td>
+              </tr>
+              <tr>
+                <td>Benevity</td>
+                <td>Large Global Corporations</td>
+                <td>Employee Donation & Tracking</td>
+                <td>Global</td>
+                <td>Subscription-based</td>
+              </tr>
+              <tr>
+                <td>Millie</td>
+                <td>Mid-Sized Global Companies</td>
+                <td>Analytics & Employee Engagement</td>
+                <td>Global (Mostly US)</td>
+                <td>Subscription & Commission</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <!-- SWOT Analysis -->
+        <section class="swot-analysis">
+          <h2>SWOT Analysis</h2>
+          <div class="swot-container">
+            <div class="swot-item strength">
+              <h3>Strengths</h3>
+              <ul>
+                <li>Unique platform addressing a specific market need.</li>
+                <li>Alignment with CSR policies in India.</li>
+                <li>Focus on transparency & impact measurement.</li>
+              </ul>
+            </div>
+            <div class="swot-item weakness">
+              <h3>Weaknesses</h3>
+              <ul>
+                <li>Dependence on regulatory support.</li>
+                <li>High resource requirements for vetting projects.</li>
+              </ul>
+            </div>
+            <div class="swot-item opportunity">
+              <h3>Opportunities</h3>
+              <ul>
+                <li>Growing emphasis on CSR globally.</li>
+                <li>Potential expansion to other markets.</li>
+              </ul>
+            </div>
+            <div class="swot-item threat">
+              <h3>Threats</h3>
+              <ul>
+                <li>New competitors with similar offerings.</li>
+                <li>Regulatory changes affecting CSR spending.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+      <section class="services">
+        <h2>OUR PRODUCT AND SERVICES</h2>
+        <div class="service-container">
+          <div class="service">
+            <div class="arrow"></div>
+            <div class="service-box">
+              <h3><i>Curated Listings:</i></h3>
+              <p>
+                A database of vetted impact startups across various sectors.
+              </p>
+            </div>
+          </div>
+          <div class="service">
+            <div class="arrow"></div>
+            <div class="service-box">
+              <h3><i>Matching Services:</i></h3>
+              <p>
+                Advanced algorithms to connect corporations with projects
+                aligning with their CSR goals.
+              </p>
+            </div>
+          </div>
+          <div class="service">
+            <div class="arrow"></div>
+            <div class="service-box">
+              <h3><i>Impact Tracking Tools:</i></h3>
+              <p>
+                Features to monitor and report on project outcomes in real-time.
+              </p>
+            </div>
+          </div>
+          <div class="service">
+            <div class="arrow"></div>
+            <div class="service-box">
+              <h3><i>Consultancy:</i></h3>
+              <p>
+                Expert guidance on CSR strategy development, compliance, and
+                impact measurement.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <br />
+    <section class="roadmap">
+      <h2>PRODUCT ROADMAP</h2>
+      <div class="road">
+        <div class="phase phase1">
+          <div class="marker"></div>
+          <div class="phase-box">
+            <h3><i>Phase 1: Platform Development</i></h3>
+            <p>
+              Build the core platform with essential features; Onboard initial
+              users (both corporations and startups).
+            </p>
+          </div>
+        </div>
+        <div class="phase phase2">
+          <div class="marker"></div>
+          <div class="phase-box">
+            <h3><i>Phase 2: Feature Enhancement</i></h3>
+            <p>
+              Integrate advanced matching algorithms; Develop comprehensive
+              impact tracking tools.
+            </p>
+          </div>
+        </div>
+        <div class="phase phase3">
+          <div class="marker"></div>
+          <div class="phase-box">
+            <h3><i>Phase 3: Scaling and Expansion</i></h3>
+            <p>
+              Expand user base across India; Introduce additional services such
+              as workshops, webinars, and networking events.
+            </p>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
+      <br /><br /><br /><br />
+    </section>
+    <section class="usp-section">
+      <h2>Unique Selling Proposition (USP) <span class="icon">🏅</span></h2>
+      <div class="usp-container">
+        <div class="usp-item">Transparency and Trust</div>
+        <div class="usp-item">Alignment with SDG 8</div>
+        <div class="usp-item">Comprehensive Matching Algorithm</div>
+      </div>
+    </section>
+    <br /><br />
+    <section class="pricing-section">
+      <h2>Pricing Strategy</h2>
+
+      <div class="pricing-container">
+        <div class="pricing-box blue">
+          <h3>Revenue Model</h3>
+          <ul>
+            <li>
+              <strong>Subscription Fees:</strong> Charging corporations for
+              premium access to the platform’s features and analytics.
+            </li>
+            <li>
+              <strong>Service Charges:</strong> Fee structure for successful
+              matches between corporations and startups.
+            </li>
+            <li>
+              <strong>Consultancy Services:</strong> Expert advice on CSR
+              strategy, compliance, and impact assessment.
+            </li>
+          </ul>
+        </div>
+
+        <div class="pricing-box green">
+          <h3>Subscription Model (For Corporations)</h3>
+          <ul>
+            <li>
+              <strong>Basic Plan:</strong> ₹5,000/month (₹60,000/year) - Access
+              to 10 startup profiles, analytics, and standard matchmaking.
+            </li>
+            <li>
+              <strong>Premium Plan:</strong> ₹15,000/month (₹1,80,000/year) -
+              Unlimited startup access, AI matchmaking, compliance reports.
+            </li>
+            <li>
+              <strong>Enterprise Plan:</strong> ₹30,000/month (₹3,60,000/year) -
+              Custom integrations, API access, account manager.
+            </li>
+          </ul>
+        </div>
+
+        <div class="pricing-box green">
+          <h3>Premium Services & Consultation Fee</h3>
+          <ul>
+            <li>
+              <strong>CSR Compliance & Documentation:</strong> ₹25,000 per
+              project
+            </li>
+            <li>
+              <strong>Impact Measurement & Reporting:</strong> ₹50,000 per
+              project
+            </li>
+            <li>
+              <strong>Corporate-Startup Matchmaking Workshops:</strong>
+              ₹1,00,000 per event
+            </li>
+          </ul>
+        </div>
+
+        <div class="pricing-box blue">
+          <h3>Transaction-Based Fees (For Startups & NGOs)</h3>
+          <table>
+            <tr>
+              <th>Service</th>
+              <th>Fee</th>
+            </tr>
+            <tr>
+              <td>Successful CSR Funding</td>
+              <td>5% of the funding received</td>
+            </tr>
+            <tr>
+              <td>Verified Listing (Optional)</td>
+              <td>₹2,000/year</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+    <br />
+    <h1>Thank You</h1>
+
+    <div class="team-container">
+      <div class="team-member" style="animation-delay: 0.2s">
+        <img src="/assets/g1.png" alt="Anchal" />
+        <h3>Anchal</h3>
+      </div>
+      <div class="team-member" style="animation-delay: 0.4s">
+        <img src="/assets/h1.png" alt="Aryan" />
+        <h3>Aryan</h3>
+      </div>
+      <div class="team-member" style="animation-delay: 0.6s">
+        <img src="/assets/k1.png" alt="Dheeraj" />
+        <h3>Dheeraj</h3>
+      </div>
+      <div class="team-member" style="animation-delay: 0.8s">
+        <img src="/assets/j1.png" alt="Jayasree" />
+        <h3>Jayasree</h3>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+/* General Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: #f4f4f4;
+}
+
+
+/* Search Bar */
+
+#searchBox {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+/* Results Box */
+
+#searchResults {
+    display: none;
+    background: white;
+    border: 1px solid #ddd;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 300px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+
+/* Highlighted Text */
+
+mark {
+    background: yellow;
+    font-weight: bold;
+    padding: 2px 4px;
+}
+
+
+/* Sections */
+
+section {
+    margin-top: 20px;
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

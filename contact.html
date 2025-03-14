@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - CSRvest</title>
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+      <p>Have questions? Get in touch with us!</p>
+    </header>
+
+    <section class="contact-form">
+      <h2>Send us a message</h2>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+      <p id="formMessage"></p>
+    </section>
+
+    <section class="map">
+      <h2>Our Location</h2>
+      <iframe
+        src="https://www.google.com/maps/embed/v1/place?q=India&key=YOUR_API_KEY"
+        allowfullscreen
+      ></iframe>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
